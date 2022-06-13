@@ -20,10 +20,11 @@
             </div>
         </div>
         <div class="row">
+            @forelse ($categories as $value)
             <div class="col-md-3 col-sm-6 text-center">
                 <div class="team-staff wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="/reservation-forme"><img src="img/team/1.png" class="img-responsive center-block" alt="" /></a>
-                    <h4>Enter Name Here</h4>
+                    <a href="/reservation-forme"><img src="img/team/1.png"{{$value->photo_categorie}} class="img-responsive center-block" alt="" /></a>
+                    <h4>{{$value->nom_categorie}}</h4>
                     <p>Designation here</p>
                     <ul class="team-social">
                         <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
@@ -32,43 +33,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 text-center">
-                <div class="team-staff wow fadeInUp" data-wow-delay="0.4s">
-                    <a href="/reservation-forme"><img src="img/team/2.png" class="img-responsive center-block" alt="" /></a>
-                    <h4>Enter Name Here</h4>
-                    <p>Designation here</p>
-                    <ul class="team-social">
-                        <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center">
-                <div class="team-staff wow fadeInUp" data-wow-delay="0.6s">
-<a href="/reservation-forme"><img src="img/team/3.png" class="img-responsive center-block" alt="" /></a>
-                    <h4>Enter Name Here</h4>
-                    <p>Designation here</p>
-                    <ul class="team-social">
-                        <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 text-center">
-                <div class="team-staff wow fadeInUp" data-wow-delay="0.8s">
-                    <a href="/reservation-forme"><img src="img/team/4.png" class="img-responsive center-block" alt="" /></a>
-                    <h4>Enter Name Here</h4>
-                    <p>Designation here</p>
-                    <ul class="team-social">
-                        <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+            @endforelse
     </div>
 </section>
 <!-- subscribe -->
