@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\reservationControllers;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,3 +25,6 @@ Route::get('/reservation', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+route::get('/reservation',[reservationControllers::class,'afficher_categories']);
+// route::get('/categorie/{id}',[placesController::class,'afficher_categories']);

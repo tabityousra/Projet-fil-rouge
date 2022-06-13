@@ -23,7 +23,7 @@
             @forelse ($categories as $value)
             <div class="col-md-3 col-sm-6 text-center">
                 <div class="team-staff wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="/reservation-forme"><img src="img/team/{{$value->photo_categorie}}" class="img-responsive center-block" alt="" /></a>
+                    <a href="/reservation-forme"><img src="img/{{$value->photo_categorie}}" class="img-responsive center-block" alt="" /></a>
                     <h4>{{$value->nom_categorie}}</h4>
                     <p>Designation here</p>
                     <ul class="team-social">
@@ -33,7 +33,12 @@
                     </ul>
                 </div>
             </div>
-            @endforelse
+              
+                    
+                @empty
+                    
+                @endforelse
+        
     </div>
 </section>
 <!-- subscribe -->
