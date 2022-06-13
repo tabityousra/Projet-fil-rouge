@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/index', function () {
     return view('pages.index');
+});
+Route::get('/reservation.forme', function () {
+    return view('pages.reservation.forme');
+});
+Route::get('/reservation', function () {
+    return view('pages.reservation');
 });
