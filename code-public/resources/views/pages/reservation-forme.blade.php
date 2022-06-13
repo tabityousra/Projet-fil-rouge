@@ -14,18 +14,19 @@
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
-                                        <label for="datepicker">Date</label>
-                                        <input type="text" name="date" class="form-control" id="datepicker" placeholder="Pick a date" title="Please choose a date" required>
-                                        <i class="fa fa-calendar-o"></i>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="form-group">
                                         <label for="name">Your Name</label>
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" title="Your Full Name please" required>
                                         <i class="fa fa-pencil-square-o"></i>
                                     </div>
                                 </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="datepicker">Date</label>
+                                        <input type="text" name="date" class="form-control" id="datepicker" placeholder="Pick a date" title="Please choose a date" required>
+                                        <i class="fa fa-calendar-o"></i>
+                                    </div>
+                                </div>
+                                
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
                                         <label for="timepicker">Time</label>
@@ -55,12 +56,20 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="name">Message</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" title="Your Full Name please" required>
+                                        <i class="fa fa-pencil-square-o"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
                                     <div class="reservation-btn">
                                         <a href="success.html">
                                         <button type="submit" class="btn btn-default btn-lg" id="js-reservation-btn">Make Reservation</button>
                                         </a>
                                     </div>
                                 </div>
+                              
                             </div>
                         </form>
                     </div>
