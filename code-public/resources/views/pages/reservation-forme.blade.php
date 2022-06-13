@@ -5,13 +5,10 @@
                     <div class="row">
                         
                         <div class="col-md-12">
-                            @forelse ($categories as $value)
                             <div class="page-header wow fadeInDown">
-                                <h1>Reservations<small>{{$value->nom_categorie}}</small></h1>
+                                <h1>Reservations<small>anniversaire</small></h1>
                             </div>
-                            @empty
-                    
-                         @endforelse
+                            
                         </div>
                     </div>
                     <div class="reservation-form wow fadeInUp">
