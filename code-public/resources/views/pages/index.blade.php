@@ -4,7 +4,7 @@
             <section class="home">
                 <div class="tittle-block">
                     <div class="logo">
-                        <a href="./index.html">
+                        <a href="./index">
                             <img src="img/logo.png" alt="logo">
                         </a>
                     </div>
@@ -85,8 +85,8 @@
                                                 <h1>Pancake with Caramel<small>If you are a fan of caramel cake, then you'll love our Pancake with caramel icecream. It's not thick, but very tasty.</small></h1>
                                             </div>
                                             <p>Ultrices In massa est, dignissim in libero ac, fringilla ornare mi.Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget enim in diam dapibus sagittis. accumsan, habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                            <a class="btn btn-default" href="./index.html" role="button">Order now</a>
-                                            <a class="btn btn-secondary" href="./index.html" role="button">Add to cart</a>
+                                            <a class="btn btn-default" href="./index" role="button">Order now</a>
+                                            <a class="btn btn-secondary" href="./index" role="button">Add to cart</a>
                                         </div>
                                     </li>
                                     <li>
@@ -98,8 +98,8 @@
                                                 <h1>Pancake with Caramel<small>If you are a fan of caramel cake, then you'll love our Pancake with caramel icecream. It's not thick, but very tasty.</small></h1>
                                             </div>
                                             <p>Ultrices In massa est, dignissim in libero ac, fringilla ornare mi.Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget enim in diam dapibus sagittis. accumsan, habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                            <a class="btn btn-default" href="./index.html" role="button">Order now</a>
-                                            <a class="btn btn-secondary" href="./index.html" role="button">Add to cart</a>
+                                            <a class="btn btn-default" href="./index" role="button">Order now</a>
+                                            <a class="btn btn-secondary" href="./index" role="button">Add to cart</a>
                                         </div>
                                     </li>
                                     <li>
@@ -111,8 +111,8 @@
                                                 <h1>Pancake with Caramel<small>If you are a fan of caramel cake, then you'll love our Pancake with caramel icecream. It's not thick, but very tasty.</small></h1>
                                             </div>
                                             <p>Ultrices In massa est, dignissim in libero ac, fringilla ornare mi.Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget enim in diam dapibus sagittis. accumsan, habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                            <a class="btn btn-default" href="./index.html" role="button">Order now</a>
-                                            <a class="btn btn-secondary" href="./index.html" role="button">Add to cart</a>
+                                            <a class="btn btn-default" href="./index" role="button">Order now</a>
+                                            <a class="btn btn-secondary" href="./index " role="button">Add to cart</a>
                                         </div>
                                     </li>
                                 </ul>

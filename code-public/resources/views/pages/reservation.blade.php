@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 text-center">
                 <div class="team-staff wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="reservation-forme.html"><img src="img/team/1.png" class="img-responsive center-block" alt="" /></a>
+                    <a href="/reservation-forme"><img src="img/team/1.png" class="img-responsive center-block" alt="" /></a>
                     <h4>Enter Name Here</h4>
                     <p>Designation here</p>
                     <ul class="team-social">
@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <div class="team-staff wow fadeInUp" data-wow-delay="0.4s">
-                    <a href="reservation-forme.html"><img src="img/team/2.png" class="img-responsive center-block" alt="" /></a>
+                    <a href="/reservation-forme"><img src="img/team/2.png" class="img-responsive center-block" alt="" /></a>
                     <h4>Enter Name Here</h4>
                     <p>Designation here</p>
                     <ul class="team-social">
@@ -58,7 +58,7 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <div class="team-staff wow fadeInUp" data-wow-delay="0.8s">
-                    <a href="reservation-forme.html"><img src="img/team/4.png" class="img-responsive center-block" alt="" /></a>
+                    <a href="/reservation-forme"><img src="img/team/4.png" class="img-responsive center-block" alt="" /></a>
                     <h4>Enter Name Here</h4>
                     <p>Designation here</p>
                     <ul class="team-social">
