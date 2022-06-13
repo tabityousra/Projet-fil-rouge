@@ -3,10 +3,15 @@
             <section class="reservation">
                 <div class="container">
                     <div class="row">
+                        
                         <div class="col-md-12">
+                            @forelse ($categories as $value)
                             <div class="page-header wow fadeInDown">
-                                <h1>Reservations<small>Book a table online. Leads will reach in your email.</small></h1>
+                                <h1>Reservations<small>{{$value->nom_categorie}}</small></h1>
                             </div>
+                            @empty
+                    
+                         @endforelse
                         </div>
                     </div>
                     <div class="reservation-form wow fadeInUp">
@@ -36,8 +41,8 @@
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
-                                        <label for="email">Email Address</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email ID" title="Please enter your email id" required>
+                                        <label for="email">Genre</label>
+                                        <input type="email" class="form-control" id="" name="" placeholder="le genre de perssones de cette événement" title=" entrer le genre de perssones de cette événement" required>
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
                                 </div>
