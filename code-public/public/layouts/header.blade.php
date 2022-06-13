@@ -71,7 +71,7 @@
                                
                             </li>
                             <li class="dropdown">
-                                <a href="./reservation.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reservation</a>
+                                <a href="./reservation" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reservation</a>
                                 <ul class="dropdown-menu">
                                 </ul>
                             </li>
@@ -79,7 +79,7 @@
                                 <a href="#about" >About</a>
                              
                             </li>
-                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./contact">Contact</a></li>
                     <!--/.navbar-collapse -->
                 </div>
             </nav>

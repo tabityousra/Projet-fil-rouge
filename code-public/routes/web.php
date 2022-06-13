@@ -22,3 +22,6 @@ Route::get('/reservation-forme', function () {
 Route::get('/reservation', function () {
     return view('pages.reservation');
 });
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
