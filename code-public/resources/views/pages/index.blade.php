@@ -1,6 +1,7 @@
 @include('layouts.header')
 
             <!-- Home page-->
+            
             <section class="home">
                 <div class="tittle-block">
                     <div class="logo">
@@ -78,15 +79,15 @@
                                 <ul class="slides">
                                     <li>
                                         <div class="slider-img">
-                                            <img src="img/thumb4.png" alt="" />
+                                            <img src="img/R.jpg" alt="" />
                                         </div>
                                         <div class="slider-content">
                                             <div class="page-header">
-                                                <h1>Pancake with Caramel<small>If you are a fan of caramel cake, then you'll love our Pancake with caramel icecream. It's not thick, but very tasty.</small></h1>
+                                                <h1>Plat de poisson<small>Si vous êtes un fan de poisson, alors vous allez adorer notre plat avec de les légumes et le calamard. Ce n’est pas épais, mais très savoureux.</small></h1>
                                             </div>
                                             <p>Ultrices In massa est, dignissim in libero ac, fringilla ornare mi.Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget enim in diam dapibus sagittis. accumsan, habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                            <a class="btn btn-default" href="./index" role="button">Order now</a>
-                                            <a class="btn btn-secondary" href="./index" role="button">Add to cart</a>
+                                            {{-- <a class="btn btn-default" href="./index" role="button">Order now</a>
+                                            <a class="btn btn-secondary" href="./index" role="button">Add to cart</a> --}}
                                         </div>
                                     </li>
                                     <li>
@@ -95,24 +96,24 @@
                                         </div>
                                         <div class="slider-content">
                                             <div class="page-header">
-                                                <h1>Pancake with Caramel<small>If you are a fan of caramel cake, then you'll love our Pancake with caramel icecream. It's not thick, but very tasty.</small></h1>
+                                                <h1>Crêpe au caramel<small>Si vous êtes un fan de gâteau au caramel, alors vous allez adorer notre crêpe avec de la crème glacée au caramel. Ce n’est pas épais, mais très savoureux.</small></h1>
                                             </div>
-                                            <p>Ultrices In massa est, dignissim in libero ac, fringilla ornare mi.Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget enim in diam dapibus sagittis. accumsan, habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                            <a class="btn btn-default" href="./index" role="button">Order now</a>
-                                            <a class="btn btn-secondary" href="./index" role="button">Add to cart</a>
+                                            <p>If you are a fan of caramel cake, then you'll love our Pancake with caramel icecream. It's not thick, but very tasty.</p>
+                                            {{-- <a class="btn btn-default" href="./index" role="button">Order now</a>
+                                            <a class="btn btn-secondary" href="./index" role="button">Add to cart</a> --}}
                                         </div>
                                     </li>
                                     <li>
                                         <div class="slider-img">
-                                            <img src="img/thumb4.png" alt="" />
+                                            <img src="img/fish.jpg" alt="" />
                                         </div>
                                         <div class="slider-content">
                                             <div class="page-header">
-                                                <h1>Pancake with Caramel<small>If you are a fan of caramel cake, then you'll love our Pancake with caramel icecream. It's not thick, but very tasty.</small></h1>
+                                                <h1>Poisson épicé<small>Si vous êtes un fan de poisson épicé, alors vous allez adorer notre plat avec délicieuces épices. Ce n’est pas épais, mais très savoureux.</small></h1>
                                             </div>
                                             <p>Ultrices In massa est, dignissim in libero ac, fringilla ornare mi.Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget enim in diam dapibus sagittis. accumsan, habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                            <a class="btn btn-default" href="./index" role="button">Order now</a>
-                                            <a class="btn btn-secondary" href="./index " role="button">Add to cart</a>
+                                            {{-- <a class="btn btn-default" href="./index" role="button">Order now</a>
+                                            <a class="btn btn-secondary" href="./index " role="button">Add to cart</a> --}}
                                         </div>
                                     </li>
                                 </ul>
@@ -142,8 +143,8 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="team-staff wow fadeInUp" data-wow-delay="0.2s">
-                                <img src="img/team/1.png" class="img-responsive center-block" alt="" />
-                                <h4>Enter Name Here</h4>
+                                <img src="img/1655197512.jpg" class="img-responsive center-block" alt="" />
+                                <h4>Réunion</h4>
                                 <p>Designation here</p>
                                 <ul class="team-social">
                                     <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
@@ -154,8 +155,8 @@
                         </div>
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="team-staff wow fadeInUp" data-wow-delay="0.4s">
-                                <img src="img/team/2.png" class="img-responsive center-block" alt="" />
-                                <h4>Enter Name Here</h4>
+                                <img src="img/team" class="img-responsive center-block" alt="" />
+                                <h4>Anniversaire</h4>
                                 <p>Designation here</p>
                                 <ul class="team-social">
                                     <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
@@ -167,7 +168,7 @@
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="team-staff wow fadeInUp" data-wow-delay="0.6s">
                                 <img src="img/team/3.png" class="img-responsive center-block" alt="" />
-                                <h4>Enter Name Here</h4>
+                                <h4>Fête de graduation</h4>
                                 <p>Designation here</p>
                                 <ul class="team-social">
                                     <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
@@ -179,7 +180,7 @@
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="team-staff wow fadeInUp" data-wow-delay="0.8s">
                                 <img src="img/team/4.png" class="img-responsive center-block" alt="" />
-                                <h4>Enter Name Here</h4>
+                                <h4>Fête des mères</h4>
                                 <p>Designation here</p>
                                 <ul class="team-social">
                                     <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
