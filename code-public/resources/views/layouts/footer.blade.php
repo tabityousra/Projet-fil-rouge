@@ -5,19 +5,19 @@
                         <div class="col-md-4 col-sm-12">
                             <h1>About us</h1>
                             <p>Duis leo justo, condimentum at purus eu,Aenean sed dolor sem. Etiam massa libero, auctor vitae egestas et, accumsan quis nunc.Duis leo justo, condimentum at purus eu, posuere pretium tellus.</p>
-                            <a href="./about.html">Read more &rarr;</a>
+                            <a href="{{asset('./about.html')}}">Read more &rarr;</a>
                         </div>
                         <div class="col-md-4  col-sm-6">
                             <h1>Recent post</h1>
                             <div class="footer-blog clearfix">
-                                <a href="./blog_right_sidebar.html">
+                                <a href="{{asset('./blog_right_sidebar.html')}}">
                                     <img src="img/thumb8.png" class="img-responsive footer-photo" alt="blog photos">
                                     <p class="footer-blog-text">Hand picked ingredients for our best customers</p>
                                     <p class="footer-blog-date">29 may 2015</p>
                                 </a>
                             </div>
                             <div class="footer-blog clearfix last">
-                                <a href="./blog_right_sidebar.html">
+                                <a href="{{asset('./blog_right_sidebar.html')}}">
                                     <img src="img/thumb9.png" class="img-responsive footer-photo" alt="blog photos">
                                     <p class="footer-blog-text">Daily special foods that you will going to love</p>
                                     <p class="footer-blog-date">29 may 2015</p>
@@ -28,25 +28,25 @@
                         <div class="col-md-4  col-sm-6">
                             <h1>Reach us</h1>
                             <div class="footer-social-icons">
-                                <a href="http://www.facebook.com">
+                                <a href="{{asset('http://www.facebook.com')}}">
                                     <i class="fa fa-facebook-square"></i>
                                 </a>
-                                <a href="http://www.twitter.com">
+                                <a href="{{asset('http://www.twitter.com')}}">
                                     <i class="fa fa-twitter"></i>
                                 </a>
-                                <a href="http://plus.google.com">
+                                <a href="{{asset('http://plus.google.com')}}">
                                     <i class="fa fa-google"></i>
                                 </a>
-                                <a href="http://www.youtube.com">
+                                <a href="{{asset('http://www.youtube.com')}}">
                                     <i class="fa fa-youtube-play"></i>
                                 </a>
-                                <a href="http://www.vimeo.com">
+                                <a href="{{asset('http://www.vimeo.com')}}">
                                     <i class="fa fa-vimeo"></i>
                                 </a>
-                                <a href="http://www.pinterest.com">
+                                <a href="{{asset('http://www.pinterest.com')}}">
                                     <i class="fa fa-pinterest-p"></i>
                                 </a>
-                                <a href="http://www.linkedin.com">
+                                <a href="{{asset('http://www.linkedin.com')}}">
                                     <i class="fa fa-linkedin"></i>
                                 </a>
                             </div>

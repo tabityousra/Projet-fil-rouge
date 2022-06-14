@@ -27,4 +27,4 @@ Route::get('/contact', function () {
 });
 
 route::get('/reservation',[reservationControllers::class,'afficher_categories']);
-// route::get('/categorie/{id}',[placesController::class,'afficher_categories']);
+route::get('/reservation-forme/{id}',[reservationControllers::class,'afficher_reservation_id']);

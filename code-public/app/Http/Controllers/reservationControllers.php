@@ -18,14 +18,14 @@ class reservationControllers extends Controller
           return view("pages.reservation",compact("categories"));
       }
   
-      function afficher_places_id($id){
+      function afficher_reservation_id($id){
   
-      $places = DB::table('reservation')
-      ->select('*')
-      ->where("reservation.id_categorie",$id)
-      ->join("categories","reservation.id_categorie",'=',"categories.id_categorie")
+    
+        $reservation=  DB::table('categories')
+      ->select("*")
+      ->where("id_categorie",$id)
       ->get();
-      return view('pages.categorie',compact("reservation"));
+      return view('pages.reservation-forme',compact("reservation"));
 
        
 

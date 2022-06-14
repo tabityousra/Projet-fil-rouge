@@ -6,7 +6,13 @@
                         
                         <div class="col-md-12">
                             <div class="page-header wow fadeInDown">
-                                <h1>Reservations<small>anniversaire</small></h1>
+                                @forelse ($reservation as $value)
+                                    
+                               
+                                <h1>{{$value->nom_categorie}}</h1>
+                            @empty
+                                    
+                                @endforelse 
                             </div>
                             
                         </div>

@@ -11,17 +11,17 @@
     <meta name="keywords" content="tomato, responsive, html5, restaurant, template, food, reservation">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
 
     <!-- Responsive Tag -->
     <meta name="viewport" content="width=device-width">
 
     <!-- CSS Files -->
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="css/plugin.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/font-awesome/css/font-awesome.css')}}">
+    <link rel="stylesheet" href="{{asset('css/plugin.css')}}">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">
 
     <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
@@ -34,11 +34,11 @@
 <![endif]-->
 
     <!-- Preloder-->
-    <div class="preloder animated">
+    {{-- <div class="preloder animated">
         <div class="scoket">
             <img src="img/preloader.svg" alt="" />
         </div>
-    </div>
+    </div> --}}
 
     <div class="body">
 
@@ -54,7 +54,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="./index">
-                            <img src="img/nav-logo.png" alt="nav-logo">
+                            <img src="{{asset('img/nav-logo.png')}}" alt="nav-logo">
                         </a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
@@ -67,19 +67,19 @@
 
                             </li>
                             <li class="dropdown">
-                                <a href="#menu" >Menu</span></a>
+                                <a href="{{asset('#menu')}}" >Menu</span></a>
                                
                             </li>
                             <li class="dropdown">
-                                <a href="./reservation" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reservation</a>
+                                <a href="{{asset('./reservation')}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reservation</a>
                                 <ul class="dropdown-menu">
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#about" >About</a>
+                                <a href="{{asset('#about')}}" >About</a>
                              
                             </li>
-                            <li><a href="./contact">Contact</a></li>
+                            <li><a href="{{asset('./contact')}}">Contact</a></li>
                     <!--/.navbar-collapse -->
                 </div>
             </nav>
