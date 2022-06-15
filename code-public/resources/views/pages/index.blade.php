@@ -155,7 +155,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="team-staff wow fadeInUp" data-wow-delay="0.4s">
-                                <img src="img/team" class="img-responsive center-block" alt="" />
+                                <img src="img/anniversaire.png" class="img-responsive center-block" alt="" />
                                 <h4>Anniversaire</h4>
                                 <p>Designation here</p>
                                 <ul class="team-social">
@@ -167,7 +167,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="team-staff wow fadeInUp" data-wow-delay="0.6s">
-                                <img src="img/team/3.png" class="img-responsive center-block" alt="" />
+                                <img src="img/1655200594.jpg" class="img-responsive center-block" alt="" />
                                 <h4>Fête de graduation</h4>
                                 <p>Designation here</p>
                                 <ul class="team-social">
@@ -179,7 +179,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 text-center">
                             <div class="team-staff wow fadeInUp" data-wow-delay="0.8s">
-                                <img src="img/team/4.png" class="img-responsive center-block" alt="" />
+                                <img src="img/1655200606.jpg" class="img-responsive center-block" alt="" />
                                 <h4>Fête des mères</h4>
                                 <p>Designation here</p>
                                 <ul class="team-social">

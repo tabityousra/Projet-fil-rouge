@@ -114,16 +114,8 @@ class ReservationController extends Controller
         $message = $request->input('message');
         $id_categorie = $request->input('id_categorie');
 
-        // if ( $request->hasFile('photo_place')) {
-        //     $file = $request->file('photo_place');
-        //         $extenstion = $file->getClientOriginalExtension();
-        //         $filename = time().'.'.$extenstion;
-        //         $file->move('img', $filename);
-        //         $image = $filename;
-        //      }
-        //    else{
-        //        $image= $request->input("img");
-        //   }
+        // 
+        //   
 
        DB::table('reservation')
        ->where('id_reservation',$id)
