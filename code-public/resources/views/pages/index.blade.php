@@ -136,7 +136,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="page-header wow fadeInDown">
-                                <h1>Reservations<small>Book a table online. Leads will reach in your email.</small></h1>
+                                <h1>Reservations<small>Nous sommes à votre disposition pour réserver nos restaurants pour votre événement.</small></h1>
                             </div>
                         </div>
                     </div>

@@ -60,23 +60,23 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
-                                <a href="./index" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home<span class=""></span></a>
+                                <a href="./index" >Accueil</a>
                                 <ul class="dropdown-menu">
                                    
                                 </ul>
 
                             </li>
                             <li class="dropdown">
-                                <a href="{{asset('#menu')}}" >Menu</span></a>
+                                <a href="{{asset('#menu')}}" >Menu</a>
                                
                             </li>
                             <li class="dropdown">
-                                <a href="{{asset('./reservation')}}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reservation</a>
+                                <a href="{{asset('./reservation')}}" >Reservation</a>
                                 <ul class="dropdown-menu">
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="{{asset('#about')}}" >About</a>
+                                <a href="{{asset('#about')}}" >A propos de nous</a>
                              
                             </li>
                             <li><a href="{{asset('./contact')}}">Contact</a></li>
