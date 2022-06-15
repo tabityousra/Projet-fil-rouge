@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\reservationControllers;
+use App\Http\Controllers\formulaireController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,3 +29,9 @@ Route::get('/contact', function () {
 
 route::get('/reservation',[reservationControllers::class,'afficher_categories']);
 route::get('/reservation-forme/{id}',[reservationControllers::class,'afficher_reservation_id']);
+
+// Route::get('/success', function () {
+//     return view('pages.success');
+// });
+
+Route::resource('add',formulaireController::class);

@@ -18,62 +18,62 @@
                         </div>
                     </div>
                     <div class="reservation-form wow fadeInUp">
-                        <form action="php/reservation.php" id="reservationform" method="POST">
+                        <form  action="" method="post">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
-                                        <label for="name">Your Name</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" title="Your Full Name please" required>
+                                        <label for="name">Nom</label>
+                                        <input type="text" class="form-control" id="name" name="nom_reservation" placeholder="Full Name" title="Your Full Name please" required>
                                         <i class="fa fa-pencil-square-o"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
                                         <label for="datepicker">Date</label>
-                                        <input type="text" name="date" class="form-control" id="datepicker" placeholder="Pick a date" title="Please choose a date" required>
+                                        <input type="" name="date_reservation" class="form-control" id="datepicker" placeholder="Pick a date" title="Please choose a date" required>
                                         <i class="fa fa-calendar-o"></i>
                                     </div>
                                 </div>
                                 
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
-                                        <label for="timepicker">Time</label>
-                                        <input type="text" class="form-control" id="timepicker" name="time" placeholder="Pick a time" title="Choose Preferred Time" required>
+                                        <label for="timepicker">Heure</label>
+                                        <input type="text" class="form-control" id="timepicker" name="heure_reservation" placeholder="Pick a time" title="Choose Preferred Time" required>
                                         <i class="fa fa-clock-o"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
                                         <label for="email">Genre</label>
-                                        <input type="email" class="form-control" id="" name="" placeholder="le genre de perssones de cette événement" title=" entrer le genre de perssones de cette événement" required>
+                                        <input type="email" class="form-control" id="" name="genre_reservation" placeholder="le genre de perssones de cette événement" title=" entrer le genre de perssones de cette événement" required>
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
-                                        <label for="guests">Guests</label>
-                                        <input class="form-control" type="number" id="guests" name="guests" placeholder="How many of you?" title="Please enter number of guests" required>
+                                        <label for="guests">Nombre de personnes</label>
+                                        <input class="form-control" type="number" id="guests" name="nombre_de_personnes" placeholder="How many of you?" title="Please enter number of guests" required>
                                         <i class="fa fa-user"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
-                                        <label for="phone">Phone Number</label>
-                                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter your Phone Number" title="Please enter your phone number" required>
+                                        <label for="phone">Téléphone</label>
+                                        <input type="text" class="form-control" id="phone" name="telephone_reservation" placeholder="Enter your Phone Number" title="Please enter your phone number" required>
                                         <i class="fa fa-phone"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12">
                                     <div class="form-group">
                                         <label for="name">Message</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" title="Your Full Name please" required>
+                                        <input type="text" class="form-control" id="name" name="message" placeholder="Full Name" title="Your Full Name please" required>
                                         <i class="fa fa-pencil-square-o"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12">
                                     <div class="reservation-btn">
-                                        <a href="success.html">
-                                        <button type="submit" class="btn btn-default btn-lg" id="js-reservation-btn">Make Reservation</button>
+                                        {{-- <a href="success"> --}}
+                                        <a href="/success" type="submit" class="btn btn-default btn-lg" id="js-reservation-btn">Make Reservation</button>
                                         </a>
                                     </div>
                                 </div>

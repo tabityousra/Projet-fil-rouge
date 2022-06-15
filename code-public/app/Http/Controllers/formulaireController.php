@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
 class formulaireController extends Controller
@@ -13,7 +14,12 @@ class formulaireController extends Controller
      */
     public function index()
     {
-        //
+        $reservation=DB::table('reservation')
+        
+        ->join('categories','reservation.id_categorie','=' ,'categories.id_categorie')
+        ->select('*')
+        ->get();
+        return view('pages.success', compact("reservation"));
     }
 
     /**
@@ -34,7 +40,25 @@ class formulaireController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
+            $nom = $request->input('nom_reservation');
+            $telephone = $request->input('telephone_reservation');
+            $genre = $request->input('genre_reservation');
+            $heure = $request->input('heure_reservation');
+            $date = $request->input('date_reservation');
+            $nombre_de_personnes = $request->input('nombre_de_personnes');
+            $message = $request->input('message');
+    
+            $id_categorie= $request->input('id_categorie');
+          
+           
+             $inserte = DB::insert('insert into reservation(nom_reservation,telephone_reservation,genre_reservation,heure_reservation,date_reservation,nombre_de_personnes,message,id_categorie) value(?,?,?,?,?,?,?,?)',[$nom,$telephone,$genre,$heure,$date,$nombre_de_personnes,$message,$id_categorie]);
+             if($inserte){
+              return redirect('afficher-reservation');
+              
+           
+    
+        }
     }
 
     /**
@@ -56,7 +80,16 @@ class formulaireController extends Controller
      */
     public function edit($id)
     {
-        //
+        $edit=DB::table('reservation')
+        ->where('id_reservation',$id)
+        ->join('categories','reservation.id_categorie','=' ,'categories.id_categorie')
+        ->select('*')
+        ->get();
+  
+        $categorie = DB::table('categories')
+          ->select("*")
+          ->get();
+        return view('pages.edit-reservation', compact('edit',"categorie"));
     }
 
     /**
@@ -79,6 +112,9 @@ class formulaireController extends Controller
      */
     public function destroy($id)
     {
-        //
+        DB::table('reservation')
+        ->where('id_reservation',$id)
+        ->delete();
+        return redirect('afficher-reservation');
     }
 }
