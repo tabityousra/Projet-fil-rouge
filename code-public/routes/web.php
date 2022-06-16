@@ -34,4 +34,4 @@ route::get('/reservation-forme/{id}',[reservationControllers::class,'afficher_re
 //     return view('pages.success');
 // });
 
-Route::resource('add',formulaireController::class);
+Route::resource('tableau-reservation',formulaireController::class);

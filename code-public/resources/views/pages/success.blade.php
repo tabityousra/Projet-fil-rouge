@@ -30,6 +30,7 @@
                         <th scope="col">Date</th>
                         <th scope="col">Nombre de personnes</th>
                         <th scope="col">Message</th>
+                        <th scope="col">Action</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -45,6 +46,19 @@
                         <td>{{$value->date_reservation}}</td>
                         <td>{{$value->nombre_de_personnes}}</td>
                         <td>{{$value->message}}</td>
+                        <td>                        
+                           
+                            <a href="{{route('tableau-reservation.edit',$value->id_reservation)}}"><i class="item-action fa fa-edit" data-toggle="modal"
+                                    data-target="#labelModal"></i></a>
+                            
+                                    <form action="{{route('tableau-reservation.destroy',$value->id_reservation)}}" method="POST">
+                                        @csrf
+                                  @method("DELETE")
+                                  <button> <i class="item-action fa fa-trash" data-toggle="modal"
+                                          data-target="#deleteItemModal"></i></button>
+                              
+                                      </form>
+                    </td>
                     </tr>
                    
                         
