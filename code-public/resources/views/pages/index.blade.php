@@ -378,7 +378,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="page-header wow fadeInDown">
-                                <h1>Instagram<small>We love posting photos of our coustomers having a good time</small></h1>
+                                <h1>TOMATO<small>We love posting photos of our coustomers having a good time</small></h1>
                             </div>
                         </div>
                     </div>
