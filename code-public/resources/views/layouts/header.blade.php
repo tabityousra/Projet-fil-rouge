@@ -60,7 +60,7 @@
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
-                                <a href="./index" >Accueil</a>
+                                <a href="/index" >Accueil</a>
                                 <ul class="dropdown-menu">
                                    
                                 </ul>

@@ -27,6 +27,7 @@ Route::get('/contact', function () {
     return view('pages.contact');
 });
 
+
 route::get('/reservation',[reservationControllers::class,'afficher_categories']);
 route::get('/reservation-forme/{id}',[reservationControllers::class,'afficher_reservation_id']);
 

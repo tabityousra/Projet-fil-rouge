@@ -234,12 +234,8 @@
                                 <div class="features-img">
                                     <img src="img/Cg.jpg" alt="" />
                                 </div>
-                                {{-- <div class="features-content">
-                                    <div class="page-header">
-                                        <h1>Serving with love</h1>
-                                    </div>
-                                    <p>Aenean suscipit vehicula purus quis iaculis. Aliquam nec leo nisi. Nam urna arcu, maximus eget ex nec, consequat pellentesque enim. Aliquam tempor fringilla odio, vel ullamcorper turpis varius eu.</p>
-                                </div> --}}
+                             
+                                
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 visible-sm">
@@ -265,29 +261,18 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="page-header wow fadeInDown">
-                                <h1>Tile Style<small>These fine folks trusted the award winning restaurant.</small></h1>
+                                <h1>Notre menu<small>Les pâtes</small></h1>
                             </div>
                         </div>
                     </div>
                     <div class="food-menu wow fadeInUp">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="menu-tags3">
-                                    <span data-filter="*" class="tagsort3-active">All</span>
-                                    <span data-filter=".starter">starters</span>
-                                    <span data-filter=".breakfast">breakfast</span>
-                                    <span data-filter=".lunch">lunch</span>
-                                    <span data-filter=".dinner">dinner</span>
-                                    <span data-filter=".desserts">desserts</span>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div class="row menu-items3">
                             <div class="menu-item3 col-sm-6 col-xs-12 starter dinner desserts">
                                 <img src="img/menu/2/1.jpg" class="img-responsive" alt="" />
                                 <div class="menu-wrapper">
-                                    <h4>English asparagus</h4>
-                                    <span class="price">$14.95</span>
+                                    <h4>Pâte Chaude et Sauce</h4>
+                                    <span class="price">50DH</span>
                                     <div class="dotted-bg"></div>
                                     <p>Asparagus, hens egg, toasted sunflower seeds</p>
                                 </div>
@@ -295,8 +280,8 @@
                             <div class="menu-item3 col-sm-6 col-xs-12 starter">
                                 <img src="img/menu/2/2.jpg" class="img-responsive" alt="" />
                                 <div class="menu-wrapper">
-                                    <h4>English asparagus</h4>
-                                    <span class="price">$14.95</span>
+                                    <h4>Les pâtes avec fromage</h4>
+                                    <span class="price">60DH</span>
                                     <div class="dotted-bg"></div>
                                     <p>Asparagus, hens egg, toasted sunflower seeds</p>
                                 </div>
@@ -304,7 +289,7 @@
                             <div class="menu-item3 col-sm-6 col-xs-12 breakfast desserts starter">
                                 <img src="img/menu/2/3.jpg" class="img-responsive" alt="" />
                                 <div class="menu-wrapper">
-                                    <h4>English asparagus</h4>
+                                    <h4>Salade des pâtes</h4>
                                     <span class="price">$14.95</span>
                                     <div class="dotted-bg"></div>
                                     <p>Asparagus, hens egg, toasted sunflower seeds</p>
@@ -313,8 +298,8 @@
                             <div class="menu-item3 col-sm-6 col-xs-12 breakfast">
                                 <img src="img/menu/2/4.jpg" class="img-responsive" alt="" />
                                 <div class="menu-wrapper">
-                                    <h4>English asparagus</h4>
-                                    <span class="price">$14.95</span>
+                                    <h4>Les pâtes avec la sauce béchamel</h4>
+                                    <span class="price">45DH</span>
                                     <div class="dotted-bg"></div>
                                     <p>Asparagus, hens egg, toasted sunflower seeds</p>
                                 </div>
@@ -322,8 +307,8 @@
                             <div class="menu-item3 col-sm-6 col-xs-12 lunch starter breakfast">
                                 <img src="img/menu/2/5.jpg" class="img-responsive" alt="" />
                                 <div class="menu-wrapper">
-                                    <h4>English asparagus</h4>
-                                    <span class="price">$14.95</span>
+                                    <h4>Les pâtes avec Crevette</h4>
+                                    <span class="price">70DH</span>
                                     <div class="dotted-bg"></div>
                                     <p>Asparagus, hens egg, toasted sunflower seeds</p>
                                 </div>
@@ -331,8 +316,8 @@
                             <div class="menu-item3 col-sm-6 col-xs-12 lunch">
                                 <img src="img/menu/2/6.jpg" class="img-responsive" alt="" />
                                 <div class="menu-wrapper">
-                                    <h4>English asparagus</h4>
-                                    <span class="price">$14.95</span>
+                                    <h4>Les pâtes aux légumes</h4>
+                                    <span class="price">65DH</span>
                                     <div class="dotted-bg"></div>
                                     <p>Asparagus, hens egg, toasted sunflower seeds</p>
                                 </div>
@@ -340,8 +325,8 @@
                             <div class="menu-item3 col-sm-6 col-xs-12 dinner breakfast lunch">
                                 <img src="img/menu/2/7.jpg" class="img-responsive" alt="" />
                                 <div class="menu-wrapper">
-                                    <h4>English asparagus</h4>
-                                    <span class="price">$14.95</span>
+                                    <h4>Les Pâtes végétariennes</h4>
+                                    <span class="price">35DH</span>
                                     <div class="dotted-bg"></div>
                                     <p>Asparagus, hens egg, toasted sunflower seeds</p>
                                 </div>
@@ -349,8 +334,8 @@
                             <div class="menu-item3 col-sm-6 col-xs-12 dinner">
                                 <img src="img/menu/2/8.jpg" class="img-responsive" alt="" />
                                 <div class="menu-wrapper">
-                                    <h4>English asparagus</h4>
-                                    <span class="price">$14.95</span>
+                                    <h4>Les pâtes italien</h4>
+                                    <span class="price">35DH</span>
                                     <div class="dotted-bg"></div>
                                     <p>Asparagus, hens egg, toasted sunflower seeds</p>
                                 </div>
@@ -363,7 +348,7 @@
             <!-- Trusted BY-->
             <section class="trusted">
               
-                <!-- Quotes section-->
+                <!-- Pourqoi nous section-->
                 <div class="trusted-quote">
                     <div class="container">
                         <div class="row">
@@ -372,19 +357,14 @@
                                     <ul class="slides">
                                         <li>
                                             <img src="img/quote.png" alt="quote">
-                                            <p class="quote-body">The world’s a big, big stage for this notorious deli smack in the middle of the theatre district, infamously famous for its over-the-top corned beef and pastrami sandwiches, chopped liver, blintzes, celebrities, salami, smoked fish and New York’s finest cheesecake.</p>
-                                            <p class="quote-author">Anthony Reed, <span>New York</span></p>
-                                        </li>
-                                        <li>
-                                            <img src="img/quote.png" alt="quote">
-                                            <p class="quote-body">You might not find dragon meat on the menu, but you’ll find pretty much anything else that walks, swims or flies, cooked up in more ways than there are people in the Guangdong province. This Midtown mainstay has a 20-year history of delivering mouth-watering and Cantonese style chow.</p>
-                                            <p class="quote-author">Gemma Arterton, <span>Bay Area</span></p>
-                                        </li>
-                                        <li>
-                                            <img src="img/quote.png" alt="quote">
-                                            <p class="quote-body">This NYC historical landmark in the heart of the Theatre District has been serving up suds and down home pub food since 1892, surviving prohibition by renting the front of its then Rockefeller Center façade to Greek florists, while the Hurley brothers ran a speak-easy in back.</p>
-                                            <p class="quote-author">Zachary Burton, <span>Sanfransisco</span></p>
-                                        </li>
+                                            <p class="quote-body">Pourquoi nous</p>
+                                            <p>Notre culture de travail est moderne et non hiérarchique.</p>
+                                            <p>Nous avons une équipe jeune représentant de nombreuses cultures différentes</p> 
+                                            <p>Nous établissons des relations de confiance avec le personnel et les encourageons à prendre leurs responsabilités</p>   
+                                            <p>Nous payons des salaires équitables et suivons toutes les règles et réglementations</p>
+                                            <p>Nous essayons de trouver la bonne quantité d'heures de travail pour répondre aux besoins de chaque membre du personnel</p>   
+                                            <p>Nous croyons qu'un état d'esprit ouvert et amical envers le personnel se reflète également dans la façon dont le personnel traite les clients</p>                                 </li>
+                                        
                                     </ul>
                                 </div>
                             </div>
