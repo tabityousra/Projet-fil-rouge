@@ -198,7 +198,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="page-header wow fadeInDown">
-                                <h1 class="white">Our features<small>Little things make us best in town</small></h1>
+                                <h1 class="white">Notre restaurant<small>Les petites choses nous rendent meilleurs en ville</small></h1>
                             </div>
                         </div>
                     </div>
@@ -206,40 +206,40 @@
                         <div class="col-md-4 col-sm-6">
                             <div class="features-tile">
                                 <div class="features-img">
-                                    <img src="img/thumb5.png" alt="" />
+                                    <img src="img/11.png" alt="" />
                                 </div>
-                                <div class="features-content">
+                                {{-- <div class="features-content">
                                     <div class="page-header">
                                         <h1>Serving with love</h1>
                                     </div>
                                     <p>Aenean suscipit vehicula purus quis iaculis. Aliquam nec leo nisi. Nam urna arcu, maximus eget ex nec, consequat pellentesque enim. Aliquam tempor fringilla odio, vel ullamcorper turpis varius eu.</p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="features-tile">
                                 <div class="features-img">
-                                    <img src="img/thumb6.png" alt="" />
+                                    <img src="img/22.png" alt="" />
                                 </div>
-                                <div class="features-content">
+                                {{-- <div class="features-content">
                                     <div class="page-header">
                                         <h1>Serving with love</h1>
                                     </div>
                                     <p>Aenean suscipit vehicula purus quis iaculis. Aliquam nec leo nisi. Nam urna arcu, maximus eget ex nec, consequat pellentesque enim. Aliquam tempor fringilla odio, vel ullamcorper turpis varius eu.</p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="features-tile">
                                 <div class="features-img">
-                                    <img src="img/thumb7.png" alt="" />
+                                    <img src="img/Cg.jpg" alt="" />
                                 </div>
-                                <div class="features-content">
+                                {{-- <div class="features-content">
                                     <div class="page-header">
                                         <h1>Serving with love</h1>
                                     </div>
                                     <p>Aenean suscipit vehicula purus quis iaculis. Aliquam nec leo nisi. Nam urna arcu, maximus eget ex nec, consequat pellentesque enim. Aliquam tempor fringilla odio, vel ullamcorper turpis varius eu.</p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 visible-sm">
