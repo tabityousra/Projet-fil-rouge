@@ -37,16 +37,16 @@
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
                                         <label for="datepicker">Date</label>
-                                        <input type="Date" name="date_reservation" class="form-control" id="datepicker">
-                                       
+                                        <input type="text" name="date_reservation" class="form-control" id="datepicker" placeholder="jj//mm//aa" title="Please choose a date" required>
+                                        <i class="fa fa-calendar-o"></i>
                                     </div>
                                 </div>
                                 
                                 <div class="col-md-4 col-sm-6">
                                     <div class="form-group">
                                         <label for="timepicker">Heure</label>
-                                        <input type="time" class="form-control" id="timepicker" name="heure_reservation">
-                                       
+                                        <input type="text" class="form-control" id="timepicker" name="heure_reservation" placeholder="Pick a time" title="Choose Preferred Time" required>
+                                        <i class="fa fa-clock-o"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">

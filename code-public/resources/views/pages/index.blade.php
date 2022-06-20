@@ -10,7 +10,7 @@
                         </a>
                     </div>
                     <h1>DELICIOUS Food</h1>
-                    <h2>Tomato is a delitious restaurant website template</h2>
+                    <h2>Tomato est un restaurant délicieux , bienvenue chez nous</h2>
                 </div>
                 <div class="scroll-down">
                     <a href="#about">
@@ -56,7 +56,7 @@
                                 En passant ses portes, vous fera découvrir et apprécier un lieu incontournable, moderne et élégant. Dans une atmosphère épurée, d’un chic absolu, où domine le bois. Notre chef vous propose une cuisine unique, à la fois contemporaine et traditionnel.                            </p>
                             <br>
                             <p>
-                             L’équipe du WOODS vous accueille chaque jour avec une chaleureuse hospitalité, tout en vous offrant un service irréprochable et convivial.                            </p>
+                             L’équipe du TOMATO vous accueille chaque jour avec une chaleureuse hospitalité, tout en vous offrant un service irréprochable et convivial.                            </p>
                             <img src="img/signature.png" alt="signature">
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="page-header wow fadeInDown">
-                                <h1 class="white">today's specials<small>A little about us and a breif history of how we started.</small></h1>
+                                <h1 class="white">LES SPÉCIAUX DU JOUR<small>Un peu sur nous et un bref historique de la façon dont nous avons commencé.</small></h1>
                             </div>
                         </div>
                     </div>
@@ -378,7 +378,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="page-header wow fadeInDown">
-                                <h1>TOMATO<small>We love posting photos of our coustomers having a good time</small></h1>
+                                <h1>Restaurant<small>Nous sommes à votre disposition pour réserver nos restaurants pour votre événement.
+                                </small></h1>
                             </div>
                         </div>
                     </div>
@@ -386,7 +387,7 @@
 
                 <!-- instafeed div-->
                 <!-- Change your settings in the data- attributes (See documentation for help) -->
-                <div id="instafeed" data-username="YOUR_INSTAGRAM_USERNAME_HERE" data-access-token="YOUR_INSTAGRAM_ACCESS_TOKEN_HERE" data-client-id="YOUR_INSTAGRAM_CLIENT_ID_HERE">
+                {{-- <div id="instafeed" data-username="YOUR_INSTAGRAM_USERNAME_HERE" data-access-token="YOUR_INSTAGRAM_ACCESS_TOKEN_HERE" data-client-id="YOUR_INSTAGRAM_CLIENT_ID_HERE"> --}}
             </section>
 
             <!-- subscribe -->
@@ -394,16 +395,16 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1>Subscribe</h1>
-                            <p>Get updates about new dishes and upcoming events</p>
-                            <form class="form-inline" action="php/subscribe.php" id="invite" method="POST">
+                            {{-- <h1>Subscribe</h1> --}}
+                            {{-- <p>Get updates about new dishes and upcoming events</p> --}}
+                            {{-- <form class="form-inline" action="php/subscribe.php" id="invite" method="POST">
                                 <div class="form-group">
                                     <input class="e-mail form-control" name="email" id="address" type="email" placeholder="Your Email Address" required>
                                 </div>
                                 <button type="submit" class="btn btn-default">
                                     <i class="fa fa-angle-right"></i>
                                 </button>
-                            </form>
+                            </form> --}}
 
                         </div>
                     </div>

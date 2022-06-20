@@ -18,58 +18,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
-            <div class="giant-space">
-                <table class="table table-striped">
-                    <thead>
-                      <tr>
-                        <th scope="col">Nom</th>
-                        <th scope="col">categorie</th>
-                        <th scope="col">Téléphone</th>
-                        <th scope="col">Genre</th>
-                        <th scope="col">Heure</th>
-                        <th scope="col">Date</th>
-                        <th scope="col">Nombre de personnes</th>
-                        <th scope="col">Message</th>
-                        <th scope="col">Action</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                        @forelse ($reservation as $value)
-                      <tr>
-                             
-                      
-                        <th scope="row">{{$value->nom_client}}</th>
-                        <td>{{$value->nom_reservation}}</td>
-                        <td>{{$value->telephone_reservation}}</td>
-                        <td>{{$value->genre_reservation}}</td>
-                        <td>{{$value->heure_reservation}}</td>
-                        <td>{{$value->date_reservation}}</td>
-                        <td>{{$value->nombre_de_personnes}}</td>
-                        <td>{{$value->message}}</td>
-                        <td>                        
-                           
-                            <a href="{{route('tableau-reservation.edit',$value->id_reservation)}}"><i class="item-action fa fa-edit" data-toggle="modal"
-                                    data-target="#labelModal"></i></a>
-                            
-                                    <form action="{{route('tableau-reservation.destroy',$value->id_reservation)}}" method="POST">
-                                        @csrf
-                                  @method("DELETE")
-                                  <button> <i class="item-action fa fa-trash" data-toggle="modal"
-                                          data-target="#deleteItemModal"></i></button>
-                              
-                                      </form>
-                    </td>
-                    </tr>
-                   
-                        
-                    @empty
-                            
-                    @endforelse 
-                     
-                    </tbody>
-                </table>
-                  
-            </div>
+           
         </div>
     </div>
 </div>

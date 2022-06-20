@@ -16,13 +16,16 @@
             <table id="datatablesSimple">
                 <thead>
                     <tr>
-                        <th>Nom</th>
+                        <th>Nom complete</th>
+                        <th>nom reservation</th>
+                      
                         <th>Téléphone</th>
                         <th>Genre</th>
                         <th>Heure</th>
                         <th>Date</th>
                         <th>Nombre de personnes</th>
                         <th>Message</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
 
@@ -31,7 +34,9 @@
                         
                   
                     <tr>
-                        <td>{{$value->nom_reservation}}</td>
+                        <td>{{$value->nom_client}}</td>
+                        <td>{{$value->nom_categorie}}</td>
+                     
                         <td>{{$value->telephone_reservation}}</td>
                         <td>{{$value->genre_reservation}}</td>
                         <td>{{$value->heure_reservation}}</td>
