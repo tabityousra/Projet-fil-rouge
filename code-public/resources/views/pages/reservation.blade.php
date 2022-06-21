@@ -25,12 +25,12 @@
                 <div class="team-staff wow fadeInUp" data-wow-delay="0.2s">
                     <a href="/reservation-forme/{{$value->id_categorie}}"><img src="img/{{$value->photo_categorie}}" class="img-responsive center-block" alt="" /></a>
                     <h4>{{$value->nom_categorie}}</h4>
-                    <p>Designation here</p>
+                    {{-- <p>Designation here</p>
                     <ul class="team-social">
                         <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
+                    </ul> --}}
                 </div>
             </div>
               

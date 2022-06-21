@@ -79,7 +79,7 @@
                                 <ul class="slides">
                                     <li>
                                         <div class="slider-img">
-                                            <img src="img/R.jpg" alt="" />
+                                            <img src="img/Sans titre(1H).jpg" alt="" />
                                         </div>
                                         <div class="slider-content">
                                             <div class="page-header">
@@ -92,7 +92,7 @@
                                     </li>
                                     <li>
                                         <div class="slider-img">
-                                            <img src="img/thumb4.png" alt="" />
+                                            <img src="img/Sans titre.png" alt="" />
                                         </div>
                                         <div class="slider-content">
                                             <div class="page-header">

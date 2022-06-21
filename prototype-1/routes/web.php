@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\adminController;
 use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\Controller;
@@ -39,7 +40,14 @@ use Illuminate\Support\Facades\Route;
 
 
 // route::get('/afficher',[CategorieController::class,'index']);
-   
+Route::get('/', function () {
+    return view('pages.login');
+    });
+
+
+route::post('/',[adminController::class,'login']);
+
+
 Route::resource('afficher-categorie', CategorieController::class);
 Route::resource('afficher-reservation', ReservationController::class);
 
